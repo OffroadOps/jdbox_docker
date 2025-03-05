@@ -1,4 +1,6 @@
 #!/bin/bash
+# Source: https://github.com/OffroadOps/jdbox_docker
+# Updated: 2025-03-05
 
 # 日志文件
 LOG_FILE="./jd_container_setup.log"
@@ -26,6 +28,7 @@ function show_menu() {
     clear
     echo -e "${GREEN}京东云容器矩阵  一键脚本"
     echo -e "----------- By zhazhahui -----------${NC}"
+    echo -e "----https://github.com/OffroadOps/jdbox_docker---${NC}"
     echo "1. 安装 矩阵"
     echo "2. 更新 矩阵"
     echo "3. 卸载 矩阵"
